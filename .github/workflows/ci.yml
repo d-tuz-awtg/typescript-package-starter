@@ -14,7 +14,7 @@ jobs:
       with:
         registry-url: https://npm.pkg.github.com/
         node-version: 14.x
-        scope: '@dalenguyen'
+        scope: '@d-tuz-awtg'
     - name: npm install, build, and test
       run: |
         npm install
@@ -22,6 +22,6 @@ jobs:
         npm test      
     - name: publish
       env:
-        NODE_AUTH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+        NODE_AUTH_TOKEN: ${{ secrets.SECRET_TOKEN }}
       run: |
         npm run deploy
