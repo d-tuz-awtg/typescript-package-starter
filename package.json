@@ -36,6 +36,6 @@
     "node": ">=8"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@d-tuz-awtg/typescript-package-starter"
+    "registry": "https://npm.pkg.github.com/@d-tuz-awtg"
   }
 }
