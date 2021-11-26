@@ -1,5 +1,5 @@
 {
-  "name": "typescript-package-starter",
+  "name": "@d-tuz-awtg/typescript-package-starter",
   "version": "1.1.0",
   "description": "TypeScript boilerplate for NPM or Github Packages",
   "main": "dist/index.js",
